@@ -1,0 +1,44 @@
+[
+  {
+    "message_id": "M1",
+    "message": "Water is spreading across the floor near electrical equipment in Building C, Level 2.",
+    "llm_output": {
+      "issue_category": "WATER_FACILITIES",
+      "urgency": "CRITICAL",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities and Workplace Safety",
+      "escalation_reason": "Water near electrical equipment creates an immediate safety and asset risk requiring urgent isolation and response.",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "An active water leak near electrical equipment in Building C requires immediate facilities and safety response."
+    }
+  },
+  {
+    "message_id": "M2",
+    "message": "I want to report that one of our suppliers may not meet our sustainability policy.",
+    "llm_output": {
+      "issue_category": "PROCUREMENT_GOVERNANCE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEUTRAL",
+      "followup_required": "Y",
+      "recommended_team": "Procurement and ESG/Compliance",
+      "escalation_reason": "A possible supplier-policy breach requires verification before any governance or procurement decision is made.",
+      "data_sensitivity_risk": "MEDIUM",
+      "brief_summary": "A potential supplier sustainability-policy issue requires procurement and ESG review before conclusions or action."
+    }
+  },
+  {
+    "message_id": "M3",
+    "message": "The accessible entrance near the main building has been blocked for two days.",
+    "llm_output": {
+      "issue_category": "ACCESSIBILITY_INCLUSION",
+      "urgency": "HIGH",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "Facilities and Accessibility/Inclusion",
+      "escalation_reason": "The ongoing obstruction may prevent equitable building access and warrants prompt remediation and verification of an alternative accessible route.",
+      "data_sensitivity_risk": "MEDIUM",
+      "brief_summary": "A blocked accessible entrance has persisted for two days and needs prompt facilities and accessibility follow-up."
+    }
+  }
+]
